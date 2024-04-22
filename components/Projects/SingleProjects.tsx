@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const SingleProject = ({ feature }: { feature: Feature }) => {
-  const { icon, title, description, link } = feature;
+  const { icon, title, description } = feature;
 
   return (
     <motion.div
