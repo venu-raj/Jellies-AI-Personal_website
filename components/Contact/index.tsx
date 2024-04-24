@@ -101,7 +101,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
-                  <div className="mb-4 flex md:mb-0">
+                  {/* <div className="mb-4 flex md:mb-0">
                     <input
                       id="default-checkbox"
                       type="checkbox"
@@ -131,7 +131,7 @@ const Contact = () => {
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
                     </label>
-                  </div>
+                  </div> */}
 
                   <button
                     aria-label="send message"
@@ -183,8 +183,8 @@ const Contact = () => {
                   Our Loaction
                 </h3>
                 <p>
-                  Hope Farm Pattandur Agrahara, Arya Hub Mall, 2nd floor,
-                  Whitefield, Bengaluru, Karnataka 560066
+                  1st Floor, Tower B, Brigade Tech Park, Whitefield, Bangalore –
+                  560066
                 </p>
               </div>
               <div className="5 mb-7">
@@ -192,7 +192,7 @@ const Contact = () => {
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="#">jeff@jellies-ai.com</a>
                 </p>
               </div>
               <div>

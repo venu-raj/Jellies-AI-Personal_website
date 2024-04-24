@@ -100,7 +100,7 @@ const SharePost = () => {
           </li>
         </ul>
 
-        <ul className="flex items-center gap-4">
+        {/* <ul className="flex items-center gap-4">
           <li>
             <p className="text-black dark:text-white">Tags:</p>
           </li>
@@ -113,10 +113,14 @@ const SharePost = () => {
             </a>
 
             <a href="#" className="duration-300 ease-in-out hover:text-primary">
-              #saas
+              #AIPhone
+            </a>
+
+            <a href="#" className="duration-300 ease-in-out hover:text-primary">
+              #Technology
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </>
   );

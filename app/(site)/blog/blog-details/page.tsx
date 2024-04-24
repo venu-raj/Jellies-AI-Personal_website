@@ -1,21 +1,18 @@
 import RelatedPost from "@/components/Blog/RelatedPost";
 import SharePost from "@/components/Blog/SharePost";
+import { Blog } from "@/types/blog";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = {
-  title: "Blog Details Page - Solid SaaS Boilerplate",
-  description: "This is Blog details page for Solid Pro",
-  // other metadata
-};
-
 const SingleBlogPage = async () => {
+  // const { mainImage, title, metadata } = blog;
+
   return (
     <>
       <section className="pb-20 pt-35 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex flex-col-reverse gap-7.5 lg:flex-row xl:gap-12.5">
-            <div className="md:w-1/2 lg:w-[32%]">
+          <div className="flex items-end justify-center gap-7.5 lg:flex-row xl:gap-12.5">
+            {/* <div className="md:w-1/2 lg:w-[32%]">
               <div className="animate_top mb-10 rounded-md border border-stroke bg-white p-3.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection">
                 <form
                   action="https://formbold.com/s/unique_form_id"
@@ -72,7 +69,7 @@ const SingleBlogPage = async () => {
               </div>
 
               <RelatedPost />
-            </div>
+            </div> */}
 
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
@@ -88,10 +85,27 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Kobe Steel plant that supplied
+                  Introducing Jellies the Future Phone the of Smartphone
                 </h2>
 
-                <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
+                <h3 className="mb-5 mt-11 font-semibold text-black dark:text-white">
+                  The phone that predicts what you need before you know even
+                  need it.
+                </h3>
+                <div className="blog-details">
+                  <h3 className="pt-8">Personalized Content Curation</h3>
+
+                  <p>
+                    When you select your interests such as art, entertainment,
+                    finance, or any other topic, the content shown will be
+                    tailored to cater to your preferences and areas of interest.
+                    By aligning the content with your interests, you can have a
+                    more engaging and personalized experience, staying
+                    up-to-date with the subjects that matter most to you.
+                  </p>
+                </div>
+
+                {/* <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
                     Jhon Doe
@@ -107,9 +121,9 @@ const SingleBlogPage = async () => {
                     </span>
                     Events
                   </li>
-                </ul>
+                </ul> */}
 
-                <div className="blog-details">
+                {/* <div className="blog-details">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
@@ -157,7 +171,7 @@ const SingleBlogPage = async () => {
                     volutpat nulla. Nunc elementum elit viverra, tempus quam
                     non, interdum ipsum.
                   </p>
-                </div>
+                </div> */}
 
                 <SharePost />
               </div>

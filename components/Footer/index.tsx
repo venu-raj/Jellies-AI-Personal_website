@@ -46,8 +46,8 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Hope Farm Pattandur Agrahara, Arya Hub Mall, 2nd floor,
-                  Whitefield, Bengaluru, Karnataka 560066
+                  1st Floor, Tower B, Brigade Tech Park, Whitefield, Bangalore –
+                  560066
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -57,7 +57,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  Jelliesai@gmail.com
+                  jeff@jellies-ai.com
                 </a>
               </motion.div>
 
@@ -302,7 +302,8 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} Jellies AI. All rights
+                reserved
               </p>
             </motion.div>
 

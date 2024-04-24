@@ -1,5 +1,4 @@
 "use client";
-
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Lines from "@/components/Lines";
@@ -8,9 +7,7 @@ import { ThemeProvider } from "next-themes";
 import { Inter } from "next/font/google";
 import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
-
 import ToasterContext from "../context/ToastContext";
-import Contact from "@/components/Contact";
 
 export default function RootLayout({
   children,
@@ -29,7 +26,6 @@ export default function RootLayout({
           <Header />
           <ToasterContext />
           {children}
-          <Contact />
           <Footer />
           <ScrollToTop />
         </ThemeProvider>

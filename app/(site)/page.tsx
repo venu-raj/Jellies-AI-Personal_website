@@ -9,7 +9,9 @@ import Integration from "@/components/Integration";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Testimonial from "@/components/Testimonial";
-import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Blog from "@/components/Blog";
+import Team from "@/components/Team";
 
 export const metadata: Metadata = {
   title: "Jellies AI",
@@ -29,10 +31,12 @@ export default function Home() {
       <FunFact />
       <Integration />
       <CTA />
+      <Team />
       <FAQ />
       <Testimonial />
+      <Contact />
       {/* <Pricing /> */}
-      {/* <Blog /> */}
+      <Blog />
     </main>
   );
 }
