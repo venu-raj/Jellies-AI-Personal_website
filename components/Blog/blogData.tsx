@@ -3,8 +3,8 @@ import { Blog } from "@/types/blog";
 const BlogData: Blog[] = [
   {
     _id: 1,
-    mainImage: "/images/blog/blog-01.png",
-    title: "Introducing Jellies the Future Phone the of Smartphone",
+    mainImage: "/images/blog/WhatsApp.jpeg",
+    title: "Introducing Jellies Future Phone of the Smartphones",
     metadata:
       "The phone that predicts what you need before you know even need it.",
   },

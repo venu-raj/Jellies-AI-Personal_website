@@ -30,6 +30,7 @@ const Header = () => {
   return (
     <>
       <header
+        onClick={() => setNavigationOpen(!navigationOpen)}
         className={`fixed left-0 top-0 z-99999 w-full py-7 ${
           stickyMenu
             ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
@@ -169,12 +170,12 @@ const Header = () => {
                 className="text-regular font-medium text-waterloo hover:text-primary"
               ></Link>
 
-              <Link
+              {/* <Link
                 href="/support"
-                className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+                className=" flex hidden items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho "
               >
                 Contact Us
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
